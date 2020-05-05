@@ -67,7 +67,7 @@ api_gateway_perime
 ```
 {
   mutation{
-    deletePublication(id:"5eb0e34bc0c12f0012a0b7f8"){
+    deletePublication(id:"IdDePublicacion"){
       title
     }
 }
