@@ -65,10 +65,10 @@ api_gateway_perime
 - **Eliminar una publicación con el ID**
 
 ```
-{
-  mutation{
-    deletePublication(id:"IdDePublicacion"){
-      title
-    }
+mutation{
+  deletePublication(id:"IdDelete"){
+    _id
+    title
+  }
 }
 ```
