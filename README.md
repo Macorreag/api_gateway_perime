@@ -65,8 +65,10 @@ api_gateway_perime
 - **Eliminar una publicación con el ID**
 
 ```
-getPublication(id: "IdDePublicacion"){
-    title
+{
+  mutation{
+    deletePublication(id:"5eb0e34bc0c12f0012a0b7f8"){
+      title
+    }
 }
-
 ```
