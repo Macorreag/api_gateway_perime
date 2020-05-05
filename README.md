@@ -27,9 +27,11 @@ api_gateway_perime
 - **Solicitar una publicación en especifico y obtener solo titulo:**
 
 ```
+{
   getPublication(id: "IdDePublicacion"){
     title
   }
+}
 ```
 
 ## Mutations Disponibles
